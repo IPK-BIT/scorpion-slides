@@ -1,10 +1,18 @@
 <script setup lang="ts">
+  import { computed } from 'vue';
+
   const props = withDefaults(defineProps<{
     image?: string
   }>(), {
     image: 'https://cover.sli.dev'
   })
+
+  const imageURL = computed(() => {
+    return new URL(props.image).href
+  })  
+
 </script>
+
 <template>
   <div class="slidev-layout section">
     <div class="my-auto w-full">
