@@ -1,0 +1,59 @@
+name: Deploy pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate decks metadata
+        run: node scripts/generate-decks.js
+
+      - name: Build Slidev decks
+        run: node scripts/build-all.js
+
+      - name: Build Vue gallery
+        run: |
+          cd app
+          npm install
+          npm run build
+          cd ..
+
+      - name: Merge gallery into Pages dist
+        run: |
+          cp -r app/dist/* dist/
+
+      - uses: actions/configure-pages@v4
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
