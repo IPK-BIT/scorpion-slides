@@ -23,6 +23,9 @@ importers:
       '@slidev/theme-seriph':
         specifier: latest
         version: 0.25.0
+      slidev-theme-scorpion:
+        specifier: ^0.1.0
+        version: 0.1.0(@nuxt/kit@3.21.1)(@vue/compiler-sfc@3.5.29)(markdown-it-async@2.2.0)(postcss@8.5.6)(typescript@5.9.3)(vite@7.3.1(@types/node@22.19.11)(jiti@2.6.1)(yaml@2.8.2))(vue@3.5.29(typescript@5.9.3))
       vue:
         specifier: ^3.5.27
         version: 3.5.29(typescript@5.9.3)
@@ -2054,6 +2057,11 @@ packages:
   plantuml-encoder@1.4.0:
     resolution: {integrity: sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==}
 
+  pnpm@10.30.2:
+    resolution: {integrity: sha512-Ns3HB+e3lAqYjJwez4jQhPhRS1w/CF9TouJEwpIdOyVFvCDdTr4fwkX+7EY7spiuzqemPtH3aAuHfcY3nY0MtA==}
+    engines: {node: '>=18.12'}
+    hasBin: true
+
   points-on-curve@0.2.0:
     resolution: {integrity: sha512-0mYKnYYe9ZcqMCWhUjItv/oHjvgEsfKvnUTg8sAtnHr3GVy7rGkXCb6d5cSyqrWqL4k81b9CPg3urd+T7aop3A==}
 
@@ -2233,6 +2241,10 @@ packages:
 
   sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
+
+  slidev-theme-scorpion@0.1.0:
+    resolution: {integrity: sha512-Y5l1Pi2E0ESHYIUdTUn+T1gcfJFlRBR5YYqQ1nAQPsB64xdm5J8lLOwO65kaePQoyxMgVh9WNIv/A7E/E++3hA==}
+    engines: {node: '>=18.0.0'}
 
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
@@ -5136,6 +5148,8 @@ snapshots:
 
   plantuml-encoder@1.4.0: {}
 
+  pnpm@10.30.2: {}
+
   points-on-curve@0.2.0: {}
 
   points-on-path@0.2.1:
@@ -5343,6 +5357,27 @@ snapshots:
       totalist: 3.0.1
 
   sisteransi@1.0.5: {}
+
+  slidev-theme-scorpion@0.1.0(@nuxt/kit@3.21.1)(@vue/compiler-sfc@3.5.29)(markdown-it-async@2.2.0)(postcss@8.5.6)(typescript@5.9.3)(vite@7.3.1(@types/node@22.19.11)(jiti@2.6.1)(yaml@2.8.2))(vue@3.5.29(typescript@5.9.3)):
+    dependencies:
+      '@iconify/vue': 5.0.0(vue@3.5.29(typescript@5.9.3))
+      '@slidev/types': 52.12.0(@nuxt/kit@3.21.1)(@vue/compiler-sfc@3.5.29)(markdown-it-async@2.2.0)(postcss@8.5.6)(typescript@5.9.3)(vite@7.3.1(@types/node@22.19.11)(jiti@2.6.1)(yaml@2.8.2))
+      codemirror-theme-vars: 0.1.2
+      pnpm: 10.30.2
+      prism-theme-vars: 0.2.5
+    transitivePeerDependencies:
+      - '@nuxt/kit'
+      - '@svgr/core'
+      - '@svgx/core'
+      - '@unocss/webpack'
+      - '@vue/compiler-sfc'
+      - markdown-it-async
+      - postcss
+      - supports-color
+      - svelte
+      - typescript
+      - vite
+      - vue
 
   source-map-js@1.2.1: {}
 

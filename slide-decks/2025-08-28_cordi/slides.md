@@ -1,5 +1,5 @@
 ---
-theme: ../../themes/slidev-theme-scorpion
+theme: scorpion
 date: 2025-08-28
 title: CoRDI 2025
 author: Manuel Feser

@@ -1,5 +1,5 @@
 ---
-theme: ../../themes/slidev-theme-scorpion
+theme: scorpion
 date: 2025-09-10
 title: GRC IB 2025
 author: Manuel Feser

@@ -1,5 +1,5 @@
 ---
-theme: ../../themes/slidev-theme-scorpion
+theme: scorpion
 date: 2025-11-21
 title: de.NBI All Hands Meeting 2025
 author: Manuel Feser
