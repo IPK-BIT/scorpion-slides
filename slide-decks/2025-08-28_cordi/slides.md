@@ -54,7 +54,7 @@ Discover how the **Scorpion** dashboard enables timely, harmonized, and actionab
 --- 
 transition: slide-left
 layout: section
-image: ../../assets/undraw_features-overview.svg
+image: ./assets/undraw_features-overview.svg
 ---
 
 # Scorpion
@@ -73,7 +73,7 @@ transition: slide-left
 ---
 transition: slide-left
 layout: section
-image: ../../assets/live-demo.png
+image: ./assets/live-demo.png
 ---
 
 # Uses
@@ -125,7 +125,7 @@ layoutClass: gap-4
 
 # Service Registration
 <div>
-    <img src="../../assets/Biigle-registration.png" class="mx-auto w-3/4"/>
+    <img src="./assets/Biigle-registration.png" class="mx-auto w-3/4"/>
 </div>
 
 ::right::
@@ -188,7 +188,7 @@ layoutClass: gap-4
 # Service Registration
 
 <div>
-    <img src="../../assets/Biigle-registration-additional.png" class="mx-auto w-5/6"/>
+    <img src="./assets/Biigle-registration-additional.png" class="mx-auto w-5/6"/>
 </div>
 ::right::
 <br>
@@ -281,7 +281,7 @@ layoutClass: gap-4
 # KPI Submission
 
 <div>
-    <img src="../../assets/Biigle-submission.png" class="mx-auto w-5/6"/>
+    <img src="./assets/Biigle-submission.png" class="mx-auto w-5/6"/>
 </div>
 
 ::right::
@@ -340,7 +340,7 @@ transition: slide-left
 # Service Evaluation
 
 <div>
-    <img src="../../assets/Biigle-dashboard.png" class="mx-auto"/>
+    <img src="./assets/Biigle-dashboard.png" class="mx-auto"/>
 </div>
 
 ---
@@ -350,7 +350,7 @@ transition: slide-down
 # Service Porfolio Assessment
 
 <div>
-    <img src="../../assets/nfdi4biodiv-assessment.png" class="mx-auto"/>
+    <img src="./assets/nfdi4biodiv-assessment.png" class="mx-auto"/>
 </div>
 
 ---

@@ -98,7 +98,7 @@ image: https://images.unsplash.com/photo-1644088379091-d574269d422f?q=80&w=1993&
 ---
 layout: section
 transition: slide-left
-image: ../../assets/undraw_software-engineer.svg
+image: ./assets/undraw_software-engineer.svg
 ---
 
 # Method
@@ -331,7 +331,7 @@ transition: slide-left
 ---
 layout: section
 transition: slide-left
-image: ../../assets/undraw_features-overview.svg
+image: ./assets/undraw_features-overview.svg
 ---
 
 # Scorpion
@@ -585,7 +585,7 @@ transition: slide-left
 # Analytical Capabilities and Reporting
 
 <figure>
-    <img src="../../assets/edal-timeline.png"/>
+    <img src="./assets/edal-timeline.png"/>
     <figcaption class="text-[#808080] font-thin text-sm italic">
         Development of the number of visits for e!DAL-PGP since January 2018.
     </figcaption>
@@ -598,7 +598,7 @@ transition: slide-left
 # Analytical Capabilities and Reporting
 
 <figure>
-    <img src="../../assets/nfdi4biodiv-assessment.png"/>
+    <img src="./assets/nfdi4biodiv-assessment.png"/>
     <figcaption class="text-[#808080] font-thin text-sm italic">
         DFG Indicator for selected services for the year 2024.
     </figcaption>
