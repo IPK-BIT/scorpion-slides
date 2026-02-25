@@ -98,7 +98,7 @@ image: https://images.unsplash.com/photo-1644088379091-d574269d422f?q=80&w=1993&
 ---
 layout: section
 transition: slide-left
-image: https://raw.githubusercontent.com/IPK-BIT/scorpion-slides/refs/heads/main/slide-decks/2025-11-21_denbi-ahm/assets/undraw_software-engineer.svg
+image: https://raw.githubusercontent.com/IPK-BIT/scorpion-slides/refs/heads/main/assets/undraw_software-engineer.svg
 ---
 
 # Method
@@ -331,7 +331,7 @@ transition: slide-left
 ---
 layout: section
 transition: slide-left
-image: https://raw.githubusercontent.com/IPK-BIT/scorpion-slides/refs/heads/main/slide-decks/2025-11-21_denbi-ahm/assets/undraw_features-overview.svg
+image: https://raw.githubusercontent.com/IPK-BIT/scorpion-slides/refs/heads/main/assets/undraw_features-overview.svg
 ---
 
 # Scorpion

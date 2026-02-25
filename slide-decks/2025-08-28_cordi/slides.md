@@ -54,7 +54,7 @@ Discover how the **Scorpion** dashboard enables timely, harmonized, and actionab
 --- 
 transition: slide-left
 layout: section
-image: ./assets/undraw_features-overview.svg
+image: https://raw.githubusercontent.com/IPK-BIT/scorpion-slides/refs/heads/main/assets/undraw_features-overview.svg
 ---
 
 # Scorpion
