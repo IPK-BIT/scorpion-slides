@@ -1,11 +1,17 @@
+<script setup lang="ts">
+  const props = withDefaults(defineProps<{
+    image?: string
+  }>(), {
+    image: 'https://cover.sli.dev'
+  })
+</script>
 <template>
   <div class="slidev-layout section">
     <div class="my-auto w-full">
       <slot />
       <div class="triangle-overlay">
         <img
-          v-if="imageUrl"
-          :src="imageUrl"
+          :src="props.image"
           alt="Section Image"
           style="position: absolute; bottom: 10%; right: 5%; width: 30%; height: auto; z-index: 2; object-fit: contain; opacity: 0.85;"
         />
@@ -39,16 +45,3 @@
   }
 </style>
 
-<script setup lang="ts">
-import { computed } from 'vue'
-
-const props = defineProps({
-  image: {
-    default: '',
-  },
-})
-
-const imageUrl = computed(() => {
-  return props.image ? new URL(props.image):''
-})
-</script>
