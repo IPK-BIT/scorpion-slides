@@ -49,6 +49,6 @@ const props = defineProps({
 })
 
 const imageUrl = computed(() => {
-  return props.image ? props.image:''
+  return props.image ? new URL(props.image):''
 })
 </script>
