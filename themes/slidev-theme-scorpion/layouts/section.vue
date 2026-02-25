@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import { computed } from 'vue';
+  import { computed } from 'vue'
 
   const props = withDefaults(defineProps<{
     image?: string
@@ -7,9 +7,13 @@
     image: 'https://cover.sli.dev'
   })
 
-  const imageURL = computed(() => {
-    return new URL(props.image).href
-  })  
+  const imageUrl = computed(() => {
+    try {
+      return new URL(props.image, import.meta.url).href
+    } catch {
+      return props.image
+    }
+  })
 
 </script>
 
@@ -19,7 +23,7 @@
       <slot />
       <div class="triangle-overlay">
         <img
-          :src="props.image"
+          :src="imageUrl"
           alt="Section Image"
           style="position: absolute; bottom: 10%; right: 5%; width: 30%; height: auto; z-index: 2; object-fit: contain; opacity: 0.85;"
         />

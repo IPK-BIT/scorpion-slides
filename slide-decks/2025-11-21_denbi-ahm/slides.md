@@ -98,7 +98,7 @@ image: https://images.unsplash.com/photo-1644088379091-d574269d422f?q=80&w=1993&
 ---
 layout: section
 transition: slide-left
-image: ./assets/undraw_software-engineer.svg
+image: ../../../assets/undraw_software-engineer.svg
 ---
 
 # Method
@@ -331,7 +331,7 @@ transition: slide-left
 ---
 layout: section
 transition: slide-left
-image: ./assets/undraw_features-overview.svg
+image: ../../../assets/undraw_features-overview.svg
 ---
 
 # Scorpion
