@@ -130,7 +130,7 @@ function formatDate(value) {
       <ul>
         <li>
           Scorpion-slides:
-          <a href="https://github.com/scorpion-monitoring/slides">https://github.com/scorpion-monitoring/slides</a>
+          <a href="https://github.com/ipk-bit/scorpion-slides">https://github.com/ipk-bit/scorpion-slides</a>
         </li>
         <li>
           These slide-decks present the Scorpion KPI Dashboard:
