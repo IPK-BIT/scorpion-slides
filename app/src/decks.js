@@ -5,16 +5,6 @@ const dev = import.meta.env.DEV
 
 export default [
   {
-    id: "2026-03-10_elixir-node-impact-dashboards",
-    title: "ELIXIR Node Impact Dashboards",
-    description: "",
-    author: "Manuel Feser",
-    date: "2026-03-10",
-    url: dev
-      ? "http://localhost:3033"
-      : "/2026-03-10_elixir-node-impact-dashboards/"
-  },
-  {
     id: "2025-11-21_denbi-ahm",
     title: "de.NBI All Hands Meeting 2025",
     description: "",
